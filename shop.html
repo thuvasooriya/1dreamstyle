@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      background-color:#c8d5ea;
+      position: relative;
+    }
+    .header {
+      padding: 80px;
+      text-align: center;
+      background: #2a446f;
+      color: white;
+    }
+
+    .header h1 {
+      font-size: 40px;
+    }
+
+    .navbar {
+      overflow: hidden;
+      background-color: #3e66a8;
+      position: sticky;
+      position: -webkit-sticky;
+      top: 0;
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+
+    .navbar a.right {
+      float: right;
+    }
+
+    .navbar a:hover {
+      background-color: #23395c;
+      color: #dae3f1;
+    }
+
+    .navbar a.active {
+      background-color: #23395c;
+      color: white;
+    }
+
+      .card1 {
+
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            border-radius: 5px;
+            background: #c8d5ea;
+        }
+
+        .card1:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .container1 {
+            padding: 2px 16px 16px 2px;
+            width: 100%;
+            min-width: 300px;
+        }
+
+        #t13 {
+            text-align: center;
+
+        }
+
+        img {
+            border-radius: 5px 5px 0 0;
+            width: 400px;
+            height: 500px;
+        }
+
+        button:hover{
+            background-color: #2a446f;
+        }
+
+        .button{
+            color: white;
+            background-color: #3e66a8;
+            font-size: 20px;
+            border-radius: 20px;
+            border: none;
+            padding: 8px 15px;
+        }
+        footer {
+          text-align: center;
+          position: bottom;
+          padding: 50px;
+          background-color: #2a446f;
+          color: white;
+          font-size:30px;
+          height: 200px;
+          text-align: center;
+        }
+
+    </style>
+</head>
+
+<body bgcolor="#f5f5dc">
+  <header class="header">
+      <h1>Dream Style</h1>
+    <p>Welcome to our Website</p>
+  </header>
+
+
+  <div class="navbar">
+    <a href="index1.html" >Home</a>
+    <a href="shop.html" class="active">Shop</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="contactus.html">Contact Us</a>
+    <a href="login.html" class="right"><i class="fa fa-user-circle-o">Signin</i></a>
+  </div>
+
+
+  <main>
+    <table id="t13" style="width: 100%">
+        <tr>
+            <td>
+                <div class="card1">
+                    <img src="https://www.artofbrilliance.co.uk/wp-content/uploads/2019/02/happy-lightblue.jpg"
+                        alt="T-Shirt" style="border-radius: 5px 5px 0 0; width:100%">
+                    <div class="container1">
+                        <p style="color:rgba(239, 21, 61, 0.86)"><b>Men's T-Shirt</b></p>
+                        <p><b>Rs.</b><del>1700</del> <b>1500</b></p>
+                        <p>Some Description</p>
+                        <button  type="button" class="button">Buy Now</button>
+                        <button  type="button" class="button">Add to cart</button>
+                        <br><br>
+                        <a style="text-align: center" href="https://www.artofbrilliance.co.uk/product/happy-t-shirt/">
+                            For More Details </a>
+                        <br><br>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="card1">
+                    <img src="https://contents.mediadecathlon.com/p1484240/k$ab565f3675dbdd7e3c486175e2c16583/travel-100-men-s-trekking-shirt-maroon.jpg?&f=800x800"
+                        alt="Shirt" style="border-radius: 5px 5px 0 0; width:100%">
+                    <div class="container1">
+                        <p style="color:rgba(239, 21, 61, 0.86)"><b>Men's Shirt</b></p>
+                        <p><b>Rs.</b><del>3000</del> <b>2400</b></p>
+                        <p>Some Description</p>
+                        <button class="button" type="button">Buy Now</button>
+                        <button class="button" type="button">Add to cart</button>
+                        <br><br>
+                        <a style="text-align: center" href="https://www.artofbrilliance.co.uk/product/happy-t-shirt/">
+                            For More Details </a>
+                        <br><br>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="card1">
+                    <img src="https://bata.lk/wp-content/uploads/2019/05/5212322_1.jpg" alt="Some Cloth"
+                        style="border-radius: 5px 5px 0 0; width:100%">
+                    <div class="container1">
+                        <p style="color:rgba(239, 21, 61, 0.86)"><b>Shoe</b></p>
+                        <p><b>Rs.</b><del>3000</del> <b>2400</b></p>
+                        <p>Some Description</p>
+                        <button class="button" type="button">Buy Now</button>
+                        <button class="button" type="button">Add to cart</button>
+                        <br><br>
+                        <a style="text-align: center"
+                            href="https://bata.lk/product/bata-unisex-synthetic-grey-sports-shoe/"> For More Details
+                        </a>
+                        <br><br>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+        <tr>
+
+            <td>
+                <div class="card1">
+                    <img src="https://5.imimg.com/data5/BQ/OT/MY-23883033/4-pocket-shorts-500x500.jpg" alt="Some Cloth"
+                        style="border-radius: 5px 5px 0 0; width:100%">
+                    <div class="container1">
+                        <p style="color:rgba(239, 21, 61, 0.86)"><b>Shorts</b></p>
+                        <p><b>Rs.</b><del>3000</del> <b>2400</b></p>
+                        <p>Some Description</p>
+                        <button class="button" type="button">Buy Now</button>
+                        <button class="button"  type="button">Add to cart</button>
+                        <br><br>
+                        <a style="text-align: center"
+                            href="https://www.indiamart.com/proddetail/4-pocket-men-shorts-14236171588.html"> For More
+                            Details </a>
+                        <br><br>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="card1">
+                    <img src="https://images.prismic.io/rushordertees-web/c46d32cd-469a-49a9-b175-7362171d29a7_Custom+Short+Sleeve+T-Shirt.jpg?auto=compress%2Cformat&rect=0%2C0%2C800%2C900&w=800&h=900"
+                        alt="Some Cloth" style="border-radius: 5px 5px 0 0; width:100%">
+                    <div class="container1">
+                        <p style="color:rgba(239, 21, 61, 0.86)"><b>T-Shirt</b></p>
+                        <p><b>Rs.</b><del>3000</del> <b>2400</b></p>
+                        <p>Some Description</p>
+                        <button class="button" type="button">Buy Now</button>
+                        <button class="button"  type="button">Add to cart</button>
+                        <br><br>
+                        <a style="text-align: center" href="https://www.rushordertees.com/t-shirts/"> For More Details
+                        </a>
+                        <br><br>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="card1">
+                    <img src="https://5.imimg.com/data5/AQ/HD/MY-38850010/jeans-500x500.jpg" alt="Some Cloth"
+                        style="border-radius: 5px 5px 0 0; width:100%">
+                    <div class="container1">
+                        <p style="color:rgba(239, 21, 61, 0.86)"><b>Men Jeans</b></p>
+                        <p><b>Rs.</b><del>3000</del> <b>2400</b></p>
+                        <p>Some Description</p>
+                        <button class="button"  type="button">Buy Now</button>
+                        <button class="button" type="button">Add to cart</button>
+                        <br><br>
+                        <a style="text-align: center"
+                            href="https://www.indiamart.com/proddetail/mens-casual-jeans-16274087988.html"> For More
+                            Details </a>
+                        <br><br>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+
+        </tr>
+        <tr>
+            <td>
+                <div class="card1">
+                    <img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fd9%2F32%2Fd932c609446b216c64884ad1df56d54aad21568a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_jeans_loose%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]"
+                        alt="Jeans" style="border-radius: 5px 5px 0 0; width:100%">
+                    <div class="container1">
+                        <p style="color:rgba(239, 21, 61, 0.86)"><b>Jeans</b></p>
+                        <p><b>Rs.</b><del>1700</del> <b>1500</b></p>
+                        <p>Some Description</p>
+                        <button class="button" type="button">Buy Now</button>
+                        <button class="button"  type="button">Add to cart</button>
+                        <br><br>
+                        <a style="text-align: center" href="https://www2.hm.com/en_asia1/productpage.0572998001.html">
+                            For More Details </a>
+                        <br><br>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="card1">
+                    <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/192790/02/sv01/fnd/EEA/fmt/png/Flyer-Runner-Engineered-Knit-Men's-Running-Shoes"
+                        alt="Shoes" style="border-radius: 5px 5px 0 0; width:100%">
+                    <div class="container1">
+                        <p style="color:rgba(239, 21, 61, 0.86)"><b>PUMA Shoes for Men</b></p>
+                        <p><b>Rs.</b><del>3000</del> <b>2500</b></p>
+                        <p>Some Description</p>
+                        <button class="button"  type="button">Buy Now</button>
+                        <button class="button"  type="button">Add to cart</button>
+                        <br><br>
+                        <a style="text-align: center"
+                            href="https://eu.puma.com/ee/en/pd/flyer-runner-engineered-knit-mens-running-shoes/192790.html">
+                            For More Details </a>
+                        <br><br>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="card1">
+                    <img src="https://rukminim1.flixcart.com/image/714/857/kjq1mkw0-0/skirt/r/j/v/free-mkcs-01-modern-kart-original-imafz7zyzsjzuzza.jpeg?q=50"
+                        alt="Skirts" style="border-radius: 5px 5px 0 0; width:100%">
+                    <div class="container1">
+                        <p style="color:rgba(239, 21, 61, 0.86)"><b>Skirts</b></p>
+                        <p><b>Rs.</b><del>3000</del> <b>2500</b></p>
+                        <p>Some Description</p>
+                        <button class="button"  type="button">Buy Now</button>
+                        <button class="button" type="button">Add to cart</button>
+                        <br><br>
+                        <a style="text-align: center"
+                            href="https://eu.puma.com/ee/en/pd/flyer-runner-engineered-knit-mens-running-shoes/192790.html">
+                            For More Details </a>
+                        <br><br>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+  </main>
+  <footer >
+    <a href="index1.html" style="color: white;"> <span>DREAM STYLE</span> </a>
+    <a href="aboutus.html" style="color: white;"> <span style="margin-left: 50px;">ABOUT US</span> </a>
+   <a href="shop.html" style="color: white;"> <span style="margin-left: 50px;">PRODUCTS</span> </a>
+   <a href="contactus.html" style="color: white;"> <span style="margin-left: 50px;">CONTACT US</span> </a>
+
+  </footer>
+</body>
+
+</html>

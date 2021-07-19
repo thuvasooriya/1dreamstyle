@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color:#c8d5ea;
+  position: relative;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #2a446f;
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #3e66a8;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #23395c;
+  color: #dae3f1;
+}
+
+.navbar a.active {
+  background-color: #23395c;
+  color: white;
+}
+
+.main {
+  -ms-flex: 70%;
+  flex: 70%;
+  background-color: #c8d5ea;
+  margin:0;
+}
+
+footer {
+  text-align: center;
+  position: bottom;
+  padding: 50px;
+  background-color: #2a446f;
+  color: white;
+  font-size:30px;
+  height: 200px;
+  text-align: center;
+}
+
+.container{
+  padding: 10px;
+  position: relative;
+}
+
+</style>
+
+</head>
+<body>
+
+<header class="header">
+  <h1>Dream Style</h1>
+  <p>Welcome to our Website</p>
+</header>
+
+
+<div class="navbar">
+  <a href="index.html" class="active">Home</a>
+  <a href="shop.html">Shop</a>
+  <a href="aboutus.html">About Us</a>
+  <a href="contactus.html">Contact Us</a>
+  <a href="login.html" class="right"><i class="fa fa-user-circle-o">Signin</i></a>
+</div>
+
+<main>
+
+<div class="main">
+    <div class="container">
+      <h2>Shop With Us Now!</h2>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+
+    <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="http://emotectz.com/site/wp-content/uploads/2018/08/ECOM.jpg" alt="Los Angeles" style="width:100%; height:500px">
+          </div>
+
+          <div class="item">
+              <img src="https://www.bareinternational.com/wp-content/uploads/2017/12/AdobeStock_73302703-1030x687.jpeg" alt="Chicago" style="width:100%;height:500px;">
+          </div>
+
+          <div class="item">
+            <img src="http://www.foundationforfamilyaffairs.org/wp-content/uploads/2017/10/shopping-759.jpg" alt="New york" style="width:100%;height:500px;">
+          </div>
+        </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+      </div>
+    </div>
+
+
+    <iframe width="100%" height="720" src="https://www.youtube.com/emb0ed/7m16dFI1AF8?&autoplay=1&loop=1&rel=0&showinfo=0&color=white&iv_load_policy=3&playlist=7m16dFI1AF8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+
+</main>
+
+
+  <footer >
+    <a href="index1.html" style="color: white;"> <span>DREAM STYLE</span> </a>
+    <a href="aboutus.html" style="color: white;"> <span style="margin-left: 50px;">ABOUT US</span> </a>
+   <a href="shop.html" style="color: white;"> <span style="margin-left: 50px;">PRODUCTS</span> </a>
+   <a href="contactus.html" style="color: white;"> <span style="margin-left: 50px;">CONTACT US</span> </a>
+
+  </footer>
+</div>
+
+</body>
+</html>

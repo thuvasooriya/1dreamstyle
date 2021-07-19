@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact Us</title>
+    <style media="screen">
+
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      background-color:#c8d5ea;
+      position: relative;
+    }
+
+    .header {
+      padding: 80px;
+      text-align: center;
+      background: #2a446f;
+      color: white;
+    }
+
+    .header h1 {
+      font-size: 40px;
+    }
+
+    .navbar {
+      overflow: hidden;
+      background-color: #3e66a8;
+      position: sticky;
+      position: -webkit-sticky;
+      top: 0;
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+
+    .navbar a.right {
+      float: right;
+    }
+
+    .navbar a:hover {
+      background-color: #23395c;
+      color: #dae3f1;
+    }
+
+    .navbar a.active {
+      background-color: #23395c;
+      color: white;
+    }
+      .contactus{
+        width: 80%;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: 2px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      div {
+        border-radius: 5px;
+        background-color: #c8d5ea;
+        padding: 20px;
+      }
+
+      #btn{
+        width: 100%;
+        background-color:#2c5a69 ;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      #btn2{
+          width: 100%;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+      }
+      #btn:hover{
+         background-color: #338fab;
+      }
+
+      h1{
+        text-align:center;
+        font-size:20px;
+      }
+      .form{
+        background-color: : #c8d5ea;
+      }
+      footer {
+        text-align: center;
+        position: bottom;
+        padding: 50px;
+        background-color: #2a446f;
+        color: white;
+        font-size:30px;
+        height: 200px;
+        text-align: center;
+      }
+
+
+
+    </style>
+  </head>
+  <body>
+
+    <header class="header">
+        <h1>Dream Style</h1>
+      <p>Welcome to our Website</p>
+    </header>
+
+
+    <div class="navbar">
+      <a href="index1.html" >Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="aboutus.html">About Us</a>
+      <a href="contactus.html" class="active">Contact Us</a>
+      <a href="login.html" class="right"><i class="fa fa-user-circle-o">Signin</i></a>
+    </div>
+
+    <main>
+    <div>
+    <h1>Contact Us</h1>
+    <form>
+    <fieldset>
+      <legend>Contact Us</legend>
+
+             First name:<br>
+             <input type = "text" name = "first_name" class="contactus" placeholder ="Type your last name" required>
+             <br>
+             Last name: <br>
+             <input type = "text" name = "last_name" class="contactus" placeholder ="Type your last name" required>
+             <br>
+             user mail:<br>
+             <input type="text"  name="user_mail" class="contactus" placeholder=" Type your user mail" required>
+             <br>
+             Phone number:<br>
+             <input type="text" name="phone number" class="contactus" placeholder=" Type your phone number" required>
+             <br>
+             Address:<br>
+             <input type="text" name="Address" class="contactus" placeholder="Type your address" required>
+             <br>
+             Comments :<br>
+             <textarea rows = "5" cols = "50" class="contactus" required> Enter comments here...</textarea>
+             <br>
+
+             <i class="fas fa-clock" style="font-size:36px;"></i>
+             <input type="submit" id="btn" value="submit">
+
+      </fieldset>
+      </form>
+      <br><br>
+      <div class="mail">
+      <table style="width:50%" text-align:"center" >
+          <tr>
+            <td>
+          <img src="https://media.istockphoto.com/vectors/email-and-mail-icon-isolated-on-white-background-vector-id946957584?s=612x612" width="100" height="50" alt="email">
+            </td>
+            <td>
+          dreamstyle@gmail.com
+            </td>
+            <td>
+          <img src="https://thumbs.dreamstime.com/z/phone-icon-black-white-telephone-symbol-vector-illustration-handset-background-eps-format-132728273.jpg" width="100" height="50" alt="phone">
+            </td>
+            <td>
+             +94 11 252 47 48
+            </td>
+            <td>
+              +94 77 123 45 46
+            </td>
+          </tr>
+        </table>
+        </div>
+        </div>
+      </main>
+      <footer >
+        <a href="index1.html" style="color: white;"> <span>DREAM STYLE</span> </a>
+        <a href="aboutus.html" style="color: white;"> <span style="margin-left: 50px;">ABOUT US</span> </a>
+       <a href="shop.html" style="color: white;"> <span style="margin-left: 50px;">PRODUCTS</span> </a>
+       <a href="contactus.html" style="color: white;"> <span style="margin-left: 50px;">CONTACT US</span> </a>
+
+      </footer>
+</body>
+</html>

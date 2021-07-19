@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100%;
+            font-family: 'Numans', sans-serif;
+        }
+
+        .card {
+            height: 500px;
+
+            margin-bottom: auto;
+            width: 400px;
+            background-color: rgba(0, 0, 0, 0.5) !important;
+            margin-left: 40%;
+        }
+
+        .card-header h1 {
+            color: white;
+            text-align: center;
+        }
+
+        .but {
+            background-color: rgba(12, 23, 255, 0.72);
+            color: white;
+            font-size: 27px;
+            margin-left: 200px;
+            border-radius: 20px;
+            border: none;
+            padding: 10px 10px;
+        }
+
+
+        .but:hover {
+            background-color: green;
+        }
+        input{
+          border-radius: 6px;
+          border: none;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <div class="card" style="margin-top: 180px;">
+        <div class="card-header">
+            <h1> <span><i class="fa fa-user-circle-o" style="font-size:36px"></i></span>Register</h1>
+
+        </div>
+
+        <div class="card-body" style="margin-left: 40px; margin-top: 40px;">
+            <form method="POST" action="login.html">
+
+                <div>
+
+                    <label for="uname" style="color: aliceblue; font-size: 25px;">User Name</label> <br>
+
+                    <input id="uname" type="text" placeholder="User Name" required autofocus style="font-size:24px;">
+                    <br><br>
+
+                </div>
+                <div>
+
+                    <label for="email" style="color: aliceblue; font-size: 25px;">Email</label> <br>
+
+                    <input id="email" type="email" placeholder="Email" required autofocus style="font-size:24px;">
+                    <br><br>
+
+                </div>
+                <div>
+                    <label for="password" style="color: aliceblue;  font-size: 25px;">Password</label> <br>
+                    <input id="password" type="password" placeholder="Password" required style="font-size:24px;">
+                    <br><br>
+
+                </div>
+                <div>
+                    <label for="cpassword" style="color: aliceblue;  font-size: 25px;">Conform Password</label> <br>
+                    <input id="cpassword" type="password" placeholder="Conform Password" required
+                        style="font-size:24px;"> <br><br>
+
+                </div>
+
+                <div>
+                    <label for="gender" style="color: aliceblue;  font-size: 25px;">Gender :</label>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male" style="color: aliceblue; font-size: 25px;">Male</label>
+                    <input type="radio" name="Female" id="female" value="female">
+                    <label for="female" style="color: aliceblue; font-size: 25px;">Female</label>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Register" class="but but:hover"
+                        onclick="alert('Registered Successfully')">
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+
+
+
+    </form>
+</body>
+
+</html>
